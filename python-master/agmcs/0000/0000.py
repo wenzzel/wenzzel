@@ -9,6 +9,7 @@ font = ImageFont.truetype ("./wenzzel/python-master/agmcs/0000/Arial.ttf",font_s
 
 text_w,text_h = draw.textsize(text,font=font) 
 draw.text((w-text_w,0), text, fill=(255,0,0), font=font)
+
 draw.ellipse((100, 100, 150, 200), fill=(255, 255, 0), outline=(0, 0, 0))
 
 
